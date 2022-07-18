@@ -7,8 +7,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/box_one_text"
+        style="@style/whiteBox"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_wide"
+        android:layout_marginTop="@dimen/margin_wide"
+        android:layout_marginEnd="@dimen/margin_wide"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
