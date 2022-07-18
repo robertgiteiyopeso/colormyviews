@@ -14,10 +14,20 @@
         android:layout_marginStart="@dimen/margin_wide"
         android:layout_marginTop="@dimen/margin_wide"
         android:layout_marginEnd="@dimen/margin_wide"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/box_one"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/box_two_text"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:text="@string/box_two"
+        style="@style/whiteBox"
+        app:layout_constraintTop_toBottomOf="@id/box_one_text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/margin_wide"
+        android:layout_marginStart="@dimen/margin_wide" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
